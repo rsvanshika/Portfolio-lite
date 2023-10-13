@@ -1,0 +1,94 @@
+/* ----------navbar css------- */
+
+
+body{
+  background-color: black;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#root{
+  width: 90%;
+  margin: auto;
+  background-color:white;
+  
+ 
+
+}
+
+.navbar{
+  background-color: rgb(88, 8, 8);
+  color:white;
+  text-align:center;
+  
+  padding: 0.5rem;
+
+}
+
+.navbar a{
+  color:tomato;
+  text-decoration: none;
+  margin-right: 1rem;
+
+  
+  
+}
+
+/*------------------about css----------*/
+.about{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.about h1{
+  text-align: center;
+  background-color: tomato;
+  width: 100%;
+}
+
+.about img{
+  width:100px;
+  border-radius:50%;
+  display: block;
+  
+}
+p{
+  padding: 1rem;
+  line-height: 1.2rem;
+}
+/* -------section css---------- */
+
+.section h1{
+
+  text-align: center;
+  background-color: tomato;
+  width: 100%;
+
+
+}
+
+/* ------------footer csss--------- */
+
+
+.footer{
+  background-color: rgb(88, 8, 8);
+  color:white;
+  text-align:center;
+  
+  padding: 1rem;
+}
+
+.footer a{
+
+  color:tomato;
+  text-decoration: none;
+  margin:0 7rem;
+}
+
